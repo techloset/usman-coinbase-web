@@ -1,0 +1,18 @@
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  
+  div.scroll::-webkit-scrollbar-track {
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom:20px ;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+
+    border-radius: 10px;
+  }
