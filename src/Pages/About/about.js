@@ -10,7 +10,6 @@ import Nav from "../../Components/nav/nav";
 const about = () => {
   return (
     <>
-      {/* <Nav /> */}
       <div
         style={{ backgroundImage: `url(${bg})` }}
         className="flex flex-col-reverse sm:flex-row gap-10 sm:gap-0 lg:gap-20 xl:gap-40 bg-no-repeat w-full h-[750px] sm:h-[750px] bg-cover bg-center justify-end sm:justify-center items-center"
@@ -33,7 +32,7 @@ const about = () => {
       </div>
 
       <div className="flex justify-center items-center flex-col">
-        <p className="text-[18px] font-bold text-transparent w-[70%] lg:w-[30%] text-center bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text">
+        <p className="text-[18px] font-bold text-transparent w-[70%] leading-[40px] lg:w-[30%] text-center bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text">
           “Morbi sagittis ultricies ex, a tempus lorem suscipit non. Donec
           semper leo ut lobortis condimentum. Orci varius natoque penatibus et
           magnis”
@@ -48,7 +47,7 @@ const about = () => {
             <img src="Line.png" className="w-[50px] mt-3" alt="" />
           </p>
 
-          <p className="w-[75%] md:w-1/2 ">
+          <p className="w-[75%] md:w-1/2 leading-[40px]">
             CoinBase is an online site and a p2admin platform that allows users
             to buy, sell and/ or exchange digital and fiat assets safely. Owned
             and managed by CoinBase Business Services established and
@@ -57,7 +56,7 @@ const about = () => {
           <img src={qualities} alt="" className="w-[75%] md:w-auto " />
         </div>
       </div>
-      <p className=" flex justify-center items-center flex-col text-transparent  text-center bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text mt-10 ml-[3.7%]">
+      <p className=" flex justify-center items-center flex-col text-transparent text-[28px] font-bold text-center bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text mt-10 ml-[3.7%]">
         Our history <img src="Line.png" className="w-[50px] mt-3" alt="" />
       </p>
       <div className="flex justify-center items-center mt-10 w-full ">
@@ -111,16 +110,18 @@ const about = () => {
         </div>
         <div className="mt-5 flex justify-center items-center flex-col relative mb-20">
           <div className="flex justify-center gap-20 w-full mt-32 ">
-            <div className="w-[30%] lg:w-[299px] bg-gray-400 z-10 h-[233px] rounded-lg "></div>
-            <div className="w-[30%] lg:w-[299px] h-[233px] z-10 bg-gray-400 rounded-lg  "></div>
+            <div className="w-[30%] lg:w-[299px] bg-[#C4C4C4] z-10 h-[233px] rounded-lg "></div>
+            <div className="w-[30%] lg:w-[299px] h-[233px] z-10 bg-[#C4C4C4] rounded-lg  "></div>
           </div>
-          <div className="shadow-md absolute bg-gradient-to-b z-20 from-pink-500 to-indigo-900  top-[25.5%]  rounded-xl w-[50%] sm:w-[299px] h-[299px]   ">
-            <span className="text-white flex justify-start ml-4 pb-1 h-full items-end">CEO <br />
+          <div className="shadow-md absolute   top-[25.5%] z-20   rounded-xl w-[50%] sm:w-[299px] h-[299px]   " style={{
+            background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)'
+          }}>
+            <span className="text-white flex justify-start ml-10 pb-7  h-full items-end">CEO <br />
 Amanda Roth</span>
           </div>
 
-          <div className="hidden sm:block w-[20%] z-5 top-[43%] absolute bg-gray-400 z-10  right-[5%] lg:right-[10%] 2xl:right-[20%]  h-[185px] rounded-lg "></div>
-          <div className=" hidden sm:block w-[20%] h-[185px] z-5 top-[43%] absolute left-[5%] lg:left-[10%] 2xl:left-[20%]  bg-gray-400 rounded-lg  "></div>
+          <div className="hidden sm:block w-[20%] z-5 top-[43%] absolute bg-[#C4C4C4] z-10  right-[5%] lg:right-[10%] 2xl:right-[20%]  h-[185px] rounded-lg "></div>
+          <div className=" hidden sm:block w-[20%] h-[185px] z-5 top-[43%] absolute left-[5%] lg:left-[10%] 2xl:left-[20%]  bg-[#C4C4C4] rounded-lg  "></div>
         </div>
       </div>
       <Newsletter height={"fit"}></Newsletter>

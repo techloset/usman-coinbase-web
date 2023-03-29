@@ -7,20 +7,28 @@ import Nav from '../../Components/nav/nav'
 const contact = () => {
   return (
      <>
-  {/* <Nav/> */}
 
-  <div style={{backgroundImage:`url(${bg})`}}  className='flex flex-col-reverse sm:flex-row gap-10 sm:gap-0 lg:gap-[10%]   xl:gap-[7%]  bg-no-repeat w-full h-[750px] sm:h-[750px] 2xl:min-h-[1100px]
-     bg-cover bg-center justify-end sm:justify-center items-center '>
+        <div
+        style={{ backgroundImage: `url(${bg})` }}
+        className="flex flex-col-reverse sm:flex-row gap-10 sm:gap-0 lg:gap-20 xl:gap-40 bg-no-repeat w-full h-[750px] sm:h-[750px] bg-cover bg-center justify-end sm:justify-center items-center"
+      >
+        <div className="flex flex-col gap-4 md:self-start ml-5 sm:w-[475px] text-white sm:mb-28 md:mb-0  md:mt-40">
+          <p>HOME/CONTACT US</p>
+          <p className="md:text-[40px] md:leading-[60px] font-bold text-[20px] ">
+          24/7 Customer support
+Including weekends.
+          </p>
+
+          <p className="text-[15px] sm:text-[16px]">
+            CWe’re always there ti help regardless the number
+of queries at hand.
+          </p>
         
-      <div className='flex flex-col gap-4  sm:w-[400px] text-white p-7 sm:p-0  mb-24 sm:ml-10  lg:ml-20' >
-      <p className='md:text-[40px] md:leading-[60px] font-bold text-[20px] ' >24/7 Customer support
-Including weekends.</p>
-<p className='text-[15px] sm:text-[16px]'>We’re always there ti help regardless the number
-of queries at hand.</p>
-      </div>
-      <img src={img} alt=""className=' h-[300px] md:h-[400px]  xl:h-[519px]  sm:mb-20 xl:mb-32' />
+        </div>
+       
+      <img src={img} alt=""className='w-auto  h-[250px] md:h-[300px] lg:h-[405px] mt-10 sm:mt-0  sm:mb-36' />
 
-    </div>
+      </div>
 <div className='flex flex-col text-center justify-center items-center gap-5'>
   <p>Please note that all message will be replied within the next 12hours</p>
   <form action="" className='flex flex-col items-center justify-center w-full gap-10'>

@@ -12,10 +12,10 @@ const blogpage = () => {
     <>
   {/* <Nav/> */}
   
-  <div style={{backgroundImage:`url(${bg})`}}  className='flex flex-col-reverse sm:flex-row gap-10 sm:gap-0 lg:gap-30 xl:gap-40 bg-no-repeat w-full h-[900px] sm:h-[750px] bg-cover bg-center justify-end sm:justify-center items-center'>
+  {/* <div style={{backgroundImage:`url(${bg})`}}  className='flex flex-col-reverse sm:flex-row gap-10 sm:gap-0 lg:gap-30 xl:gap-40 bg-no-repeat w-full h-[900px] sm:h-[750px] bg-cover bg-center justify-end sm:justify-center items-center'>
         
         <div className='flex flex-col gap-4  sm:w-[400px] text-white mb-20 sm:ml-10 m-4 lg:ml-20' >
-        <p>HOME/ABOUT US</p>
+        <p>HOME/BLOG</p>
         <p className='md:text-[40px] md:leading-[60px] font-bold text-[20px]  ' >
         Stay updated,
 Never miss a post.
@@ -26,6 +26,27 @@ giftcard at the best rate, why not give us a trial.</p>
         </div>
         <img src={img} alt=""className='sm:mt-40 md:mt-32 h-[300px] md:h-[350px]  lg:h-[450px] sm:self-start lg:mt-7  ' />
   
+      </div> */}
+          <div
+        style={{ backgroundImage: `url(${bg})` }}
+        className="flex flex-col-reverse sm:flex-row gap-10 sm:gap-0 lg:gap-20 xl:gap-40 bg-no-repeat w-full h-[750px] sm:h-[750px] bg-cover bg-center justify-end sm:justify-center items-center"
+      >
+        <div className="flex flex-col gap-4 md:self-start ml-5 sm:w-[426px] text-white sm:mb-28 md:mb-0  md:mt-40">
+        <p>HOME/BLOG</p>
+          <p className="md:text-[40px] md:leading-[60px] font-bold text-[20px] ">
+          Stay updated,
+Never miss a post.
+          </p>
+
+          <p className="text-[15px] sm:text-[16px]">
+            CoinBase is a platform for trading your bitcoin and giftcard at the
+            best rate, why not give us a trial.
+          </p>
+        
+        </div>
+       
+      <img src={img} alt=""className='w-auto  h-[250px] md:h-[300px] lg:h-[405px] mt-10 sm:mt-0  sm:mb-36' />
+
       </div>
   <div className='flex flex-col gap-20 justify-center items-center'>
 

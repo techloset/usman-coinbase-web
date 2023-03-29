@@ -13,26 +13,29 @@ import { Link } from 'react-router-dom'
 const footer = () => {
   return (
     <div>
-<footer class="text-white  bg-black mt-10">
-  <div class="container px-5 py-10 lg:py-24 mx-auto flex md:items-center lg:items-start  md:flex-row  justify-center items-center flex-wrap flex-col">
-    <div class="w-64    sm:m-0 text-center md:text-left md:self-start">
-      {/* <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"> */}
+<footer className="text-[#A2A2A2] text-[18px] relative  bg-[#151515] mt-10">
+  <div className="container px-5 py-10 lg:py-16 mx-auto flex md:items-center lg:items-start  md:flex-row  justify-between items-center flex-wrap flex-col">
+    <div className="w-64    sm:m-0 text-center md:text-left md:self-start">
+
        
-        <img src={logo} className='m-auto md:m-0 mb-4' alt="" />
-      {/* </a> */}
-      <p class="mt-2 text-sm text-gray-500 my-5 hidden md:block"> Fusce ut elit aliquet, fermentum leo vel, tempus nunc. Fusce eu rhoncus augue. Fusce vel metus pharetra, fermentum</p>
-      <img src={icons} className='hidden md:block' alt="" />
+        <img src={logo} className='m-auto pb-5 md:pb-0 md:mb-9 ' alt="" />
+
+      <p className="mt-2    hidden md:block text-[12px]"> Fusce ut elit aliquet, fermentum leo vel, tempus nunc. Fusce eu rhoncus augue. Fusce vel metus pharetra, fermentum</p>
+      <img src={icons} className='hidden md:block mt-[20px]' alt="" />
+      <p className='text-[12px] absolute bottom-0 text-center ml-5 md:ml-0'>
+      © 2019  Designed by Cr8tiv_yemmy
+      </p>
     </div>
-    {/* <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center"> */}
-      <div class="px-4 hidden md:block">
-        <h2 class="title-font text-white font-bold tracking-widest text-sm mb-3">CoinBase Links
+ 
+      <div className="px-4 hidden md:block self-start">
+        <h2 className=" text-white  tracking-widest  md:mb-9 ">CoinBase Links
 
 
 
 
 
 </h2>
-        <ul class="list-none mb-10 text-gray-600 ">
+        <ul className="list-none text-[12px]   flex flex-col gap-3">
       
           <li> <Link to='/'>Home</Link> </li>
      <li> <Link to='/About'>About Us</Link> </li>
@@ -42,20 +45,20 @@ const footer = () => {
          
         </ul>
       </div>
-      <div class=" px-4 m-auto md:m-0">
-        <h2 class="title-font  text-white font-bold tracking-widest text-sm mb-3 hidden md:block">Contact Us</h2>
-        <ul class="list-none mb-10 text-center md:text-justify">
+      <div className=" px-4 m-auto md:m-0">
+        <p className=" text-white  tracking-widest  mb-6 hidden md:block">Contact Us</p>
+        <ul className="list-none  text-center md:text-justify text-[12px]">
         
-          <li className='text-gray-600 hover:text-gray-800'>  
+          <li className=' '>  
           (+234) 137632128
           </li>
-          <li className='text-gray-600 hover:text-gray-800'>  
+          <li className=' '>  
           Coinbase@yahoo.com
           </li>
-          <li className='text-gray-600 hover:text-gray-800'>  
+          <li className=' '>  
           Address goes here
           </li>
-<li className='text-gray-600 hover:text-gray-800 mt-10' >Download Our App</li>
+<li className='  mt-5 md:mt-[85px]' >Download Our App</li>
 <li className='flex justify-center mt-4'>
 
 <img src={icons} className='md:hidden block' alt="" />
@@ -64,8 +67,8 @@ const footer = () => {
         </ul>
       </div>
     
-      <div class="hidden md:block m-auto sm:m-0  px-4">
-        <h2 class="title-font font-bold text-white tracking-widest text-sm mb-3 sm:mb-0">CoinBase Instagram</h2>
+      <div className="hidden lg:block m-auto sm:m-0  px-4">
+        <h2 className="title-font  text-white tracking-widest  mb-3 sm:mb-[31px]">CoinBase Instagram</h2>
      
         <div className='flex  gap-2 my-2'>
 <img src={img1} alt="" />
@@ -81,7 +84,7 @@ const footer = () => {
       </div>
       </div>
     </div>
-  {/* </div> */}
+  
 
 </footer>      
     </div>
