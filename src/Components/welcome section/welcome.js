@@ -8,7 +8,7 @@ const Welcome = () => {
     <div className="flex flex-col gap-5 w-[90%] sm:w-[400px] text-justify">
     <p className="text-[22px] sm:text-[28px] font-bold leading-tight text-transparent whitespace-nowrap   bg-gradient-to-br  from-pink-500 to-indigo-900 bg-clip-text">Welcome to CoinBase <img src="Line.png" className="w-[50px] mt-1" alt="" /></p>
     
-      <p>
+      <p className="leading-[40px]">
         We have the best rates . Simply start your exchange right now. Sign up
         for our Affiliate program and earn commission from each exchange. The
         earnings are credited in your account instantly and can be withdrawn

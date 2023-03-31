@@ -5,12 +5,11 @@ import phone2 from '../../Images/download/ip.png'
 import store from '../../Images/download/Store.png'
 const download = () => {
   return (
-    <div style={{backgroundImage:`url(${bg})`}} className='relative flex flex-col justify-center items-center bg-cover w-full h-[657px] xl:h-[800px] bg-no-repeat bg-center'>
+    <div style={{backgroundImage:`url(${bg})`}} className='relative  flex flex-col justify-center items-center bg-cover w-full h-[657px] xl:h-[800px] bg-no-repeat bg-center'>
         <div className='flex flex-col justify-start h-full   items-center gap-10'>
 
-        <p className=' text-[20px] sm:text-[28px] font-bold  bg-gradient-to-r from-pink-500 via-pink-600 to-indigo-900 text-transparent bg-clip-text flex items-center flex-col '>Download our app <img src="Line.png" className='w-[50px]' alt="" /></p>
         
-        <p className='w-[80%] sm:w-auto'>Discover exclusive deals and discounts with
+        <p className='w-[80%] mt-10 text-center sm:w-auto'>Discover exclusive deals and discounts with <br className='sm:block hidden' />
  our mobile experience.</p>
  <img src={store} alt="" />
 
@@ -23,9 +22,9 @@ const download = () => {
 
  </div>
  <div className='flex absolute gap-4 sm:gap-10 h-[100%] bottom-[-60%]'>
+      <img src={phone2} className='h-[30%] sm:h-[50%] md:h-[70%] lg:h-[80%]' alt="" />
       <img src={phone1} className='h-[30%] sm:h-[50%] md:h-[70%] lg:h-[80%] ' alt="" />
 
-      <img src={phone2} className='h-[30%] sm:h-[50%] md:h-[70%] lg:h-[80%]' alt="" />
         </div>
       
     </div>

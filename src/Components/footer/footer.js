@@ -18,7 +18,7 @@ const footer = () => {
     <div className="w-64    sm:m-0 text-center md:text-left md:self-start">
 
        
-        <img src={logo} className='m-auto pb-5 md:pb-0 md:mb-9 ' alt="" />
+        <img src={logo} className='mx-auto md:mx-0 pb-5 md:pb-0 md:mb-9 ' alt="" />
 
       <p className="mt-2    hidden md:block text-[12px]"> Fusce ut elit aliquet, fermentum leo vel, tempus nunc. Fusce eu rhoncus augue. Fusce vel metus pharetra, fermentum</p>
       <img src={icons} className='hidden md:block mt-[20px]' alt="" />

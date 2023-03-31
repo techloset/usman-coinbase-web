@@ -62,8 +62,8 @@ const about = () => {
       <div className="flex justify-center items-center mt-10 w-full ">
         <div className="flex flex-col gap-10 sm:gap-52 items-end w-[50%] mr-3 sm:mr-10 ">
           <div className="w-[70%] flex flex-col text-justify    ">
-            <p className=" font-bold text-transparent self-end mr-2 bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text">
-              May 2019
+            <p className=" font-bold text-transparent   text-[24px]  self-end mr-2 bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text">
+              May 2010
             </p>
 
             <p className="text-[12px] sm:text-[16px]">
@@ -74,8 +74,8 @@ const about = () => {
             </p>
           </div>
           <div className="w-[70%] flex flex-col text-justify  ">
-            <p className="font-bold text-transparent self-end mr-2 bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text">
-              May 2019
+            <p className="font-bold text-transparent   text-[24px]  self-end mr-2 bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text">
+              May 2017
             </p>
             <p className="text-[12px] sm:text-[16px]">
               Ut enim mi, mattis at sollicitudin rhoncus, rhoncus eget sem.
@@ -87,7 +87,7 @@ const about = () => {
         </div>
         <img src={tree} alt="" className="h-auto " />
         <div className="w-[47%] ml-3 sm:ml-10">
-          <p className=" text-transparent  font-bold bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text">
+          <p className=" text-transparent  text-[24px] font-bold bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text">
             May 2019
           </p>
           <p className=" w-[70%] text-[12px] sm:text-[16px]">
@@ -100,22 +100,22 @@ const about = () => {
       </div>
       <div className="flex  flex-col   gap-5 ">
         <div className="flex flex-col items-center gap-4 ml-[3.7%] justify-center">
-
-        <p className="text-transparent bg-gradient-to-br  from-pink-500 to-indigo-900 bg-clip-text  mt-5 ">Meet the team  <img src="Line.png" alt=""className="mt-2 m-auto  w-[50px] " /></p>
+<p className="text-[12px] font-bold mb-[125px] mt-[30px]">
+To be continue…
+</p>
+        <p className="text-transparent bg-gradient-to-br  from-pink-500 to-indigo-900 bg-clip-text  mt-5 text-[28px] font-bold ">Meet the team  <img src="Line.png" alt=""className="mt-2 m-auto  w-[50px] " /></p>
        
-        <p className="w-[90%] sm:w-[55%] ">
+        <p className="w-[90%] sm:w-[55%] text-center ">
           Meet the team that makes the process of this system fast and painless
           as possible to provide you with good result{" "}
         </p>
         </div>
-        <div className="mt-5 flex justify-center items-center flex-col relative mb-20">
+        <div className="mt-5 flex justify-center items-center flex-col relative mb-[90px]">
           <div className="flex justify-center gap-20 w-full mt-32 ">
             <div className="w-[30%] lg:w-[299px] bg-[#C4C4C4] z-10 h-[233px] rounded-lg "></div>
             <div className="w-[30%] lg:w-[299px] h-[233px] z-10 bg-[#C4C4C4] rounded-lg  "></div>
           </div>
-          <div className="shadow-md absolute   top-[25.5%] z-20   rounded-xl w-[50%] sm:w-[299px] h-[299px]   " style={{
-            background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)'
-          }}>
+          <div className="shadow-md absolute   top-[25.5%] z-20   rounded-xl w-[50%] sm:w-[299px] h-[299px]   bg-gradient-to-b from-[#f19aca] to-[#987fae] " >
             <span className="text-white flex justify-start ml-10 pb-7  h-full items-end">CEO <br />
 Amanda Roth</span>
           </div>
@@ -124,7 +124,7 @@ Amanda Roth</span>
           <div className=" hidden sm:block w-[20%] h-[185px] z-5 top-[43%] absolute left-[5%] lg:left-[10%] 2xl:left-[20%]  bg-[#C4C4C4] rounded-lg  "></div>
         </div>
       </div>
-      <Newsletter height={"fit"}></Newsletter>
+      <Newsletter height="fit"></Newsletter>
       <Footer></Footer>
     </>
   );
