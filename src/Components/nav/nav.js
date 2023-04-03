@@ -110,7 +110,7 @@ const Nav = ({ children }) => {
               </li>
             </ul>
 
-          <button className="bg-gradient-to-br text-white xl:font-bold text-sm  w-[5.625rem]  xl:w-[9.8125rem] h-[3.375rem] uppercase from-pink-500 to-indigo-900 rounded-full">
+          <button className="bg-gradient-to-br text-white xl:font-bold text-sm  w-[5.625rem]  xl:w-[9.8125rem] h-[3.375rem] uppercase  rounded-full" style={{background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)'}}>
             Login
           </button>
         </div>

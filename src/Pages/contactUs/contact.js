@@ -1,7 +1,7 @@
 import React from 'react'
 import bg from '../../Images/contactPage/bgImg.png'
 import img from '../../Images/contactPage/Group.png'
-import imgMap from '../../Images/contactPage/map.png'
+import imgMap from '../../Images/contactPage/map.svg'
 import Footer from '../../Components/footer/footer'
 import Nav from '../../Components/nav/nav'
 const contact = () => {
@@ -29,20 +29,20 @@ of queries at hand.
       <img src={img} alt=""className='w-auto  h-[250px] md:h-[300px] lg:h-[405px] mt-10 sm:mt-0  sm:mb-36' />
 
       </div>
-<div className='flex flex-col text-center justify-center items-center gap-5'>
-  <p>Please note that all message will be replied within the next 12hours</p>
+<div className='flex flex-col text-center justify-center items-center gap-[30px] mb-[87px]'>
+  <p className='mt-[20px] w-[80%]'>Please note that all message will be replied within the next 12hours</p>
   <form action="" className='flex flex-col items-center justify-center w-full gap-10'>
-      <div className='w-full flex gap-5 md:gap-[10%] flex-col md:flex-row items-center  justify-center  '>
+      <div className='w-full flex gap-5 md:gap-[4%] flex-col md:flex-row items-center  justify-center  '>
 
-      <input type="text" className='rounded-md pl-2 w-[80%] md:w-[35%] h-[60px] border border-solid border-gray-300' placeholder='Name' name="" id="" />
-      <input type="text" className='rounded-md pl-2 w-[80%] md:w-[35%] h-[60px] border border-solid border-gray-300' placeholder='Name' name="" id="" />
+      <input type="text" className='rounded-md p-[20px] w-[80%] md:w-[23%] h-[60px]  border-[1px] border-[#D1D1D1] placeholder:text-[#2F2F2F]' placeholder='Name *' name="" id="" />
+      <input type="text" className='rounded-md p-[20px] w-[80%] md:w-[23%] h-[60px]  border-[1px] border-[#D1D1D1] placeholder:text-[#2F2F2F]' placeholder='Email *' name="" id="" />
       </div>
       
 
-<textarea name="" id=""  className='rounded-md w-[80%] h-[190px] border border-solid border-gray-300 resize-none'></textarea>
-    <div className='w-[80%] flex'>
+<textarea placeholder='Your Comment' name="" id=""  className='placeholder:text-[#2F2F2F] p-[20px] box-border rounded-md w-[80%] md:w-[50%] h-[190px]  border-[1px] border-[#D1D1D1] resize-none'></textarea>
+    <div className='w-[50%] flex'>
 
-<button className="self-start text-2xl  font-bold text-white bg-gradient-to-br from-pink-500 to-indigo-900 w-[157px] h-[54px] rounded-full">
+<button className="self-start text-[14px]  mt-[20px] mb-[60px] font-bold text-white bg-gradient-to-br from-pink-500 to-indigo-900 w-[157px] h-[54px] rounded-full">
 PUBLISH
       </button>
     </div>
