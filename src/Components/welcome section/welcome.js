@@ -3,7 +3,7 @@ import img from '../../Images/welcome/img.png'
 
 const Welcome = () => {
   return (
-    <div className="flex items-center flex-col md:flex-row justify-center gap-10 sm:mx-10 ">
+    <div className="flex items-center flex-col md:flex-row justify-center gap-10 sm:mx-10 mt-10 ">
     <img src={img} className='w-auto md:w-[50%] lg:w-auto' alt="" />
     <div className="flex flex-col gap-5 w-[90%] sm:w-[400px] text-justify">
     <p className="text-[22px] sm:text-[28px] font-bold leading-tight text-transparent whitespace-nowrap   bg-gradient-to-br  from-pink-500 to-indigo-900 bg-clip-text">Welcome to CoinBase <img src="Line.png" className="w-[50px] mt-1" alt="" /></p>

@@ -6,7 +6,7 @@ const Trade = () => {
   return (
     <div
       style={{ backgroundImage: `url(${bg})` }}
-      className=" bg-no-repeat w-full h-[488px] mt-20 bg-cover bg-center flex justify-center items-center "
+      className=" bg-no-repeat w-full h-[488px] 2xl:h-[600px] mt-20 bg-cover bg-center flex justify-center items-center "
     >
       <div className="bg-white w-[80%] sm:w-[70%] lg:w-[980px] h-[504px] mt-40 gap-20 flex flex-col justify-center items-center shadow-md rounded-3xl  ">
         <p

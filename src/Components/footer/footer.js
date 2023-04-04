@@ -27,7 +27,7 @@ const footer = () => {
       </p>
     </div>
  
-      <div className="px-4 hidden md:block self-start">
+      <div className="hidden md:block self-start">
         <h2 className=" text-white  tracking-widest  md:mb-9 ">CoinBase Links
 
 
@@ -45,7 +45,7 @@ const footer = () => {
          
         </ul>
       </div>
-      <div className=" px-4 m-auto md:m-0">
+      <div className=" m-auto md:m-0">
         <p className=" text-white  tracking-widest  mb-6 hidden md:block">Contact Us</p>
         <ul className="list-none  text-center md:text-justify text-[12px]">
         

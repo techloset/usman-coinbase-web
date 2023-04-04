@@ -7,10 +7,12 @@ import tree from "../../Images/aboutImgs/Tree.png";
 import Newsletter from "../../Components/newsletter/newsletter";
 import Footer from "../../Components/footer/footer";
 import Nav from "../../Components/nav/nav";
+// import bg from '../../Images/header/BG.png'
+import path from '../../Images/header/p.png'
 const about = () => {
   return (
     <>
-      <div
+      {/* <div
         style={{ backgroundImage: `url(${bg})` }}
         className="flex flex-col-reverse sm:flex-row gap-10 sm:gap-0 lg:gap-20 xl:gap-40 bg-no-repeat w-full h-[750px] sm:h-[750px] bg-cover bg-center justify-end sm:justify-center items-center"
       >
@@ -29,7 +31,33 @@ const about = () => {
        
       <img src={img} alt=""className='w-auto  h-[250px] md:h-[300px] lg:h-[405px] mt-10 sm:mt-0  sm:mb-36' />
 
-      </div>
+      </div> */}
+      <div 
+    style={{background:'linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%)'}} 
+    className=' flex flex-col justify-between'
+
+    >
+
+    <div  className='flex flex-col-reverse sm:flex-row gap-10 sm:gap-0 lg:gap-[10%]   xl:gap-[7%]  bg-no-repeat w-full 
+     bg-cover bg-center justify-end sm:justify-center items-center '>
+        
+        <div className="flex flex-col gap-4 mb-[50px] sm:mb-[175px] self-start ml-5 sm:w-[426px] text-white  sm:mt-40">
+          <p>HOME/ABOUT US</p>
+          <p className="md:text-[40px] md:leading-[60px] font-bold text-[20px] ">
+            Great service,  Professional support
+          </p>
+
+          <p className="text-[15px] sm:text-[16px]">
+            CoinBase is a platform for trading your bitcoin and giftcard at the
+            best rate, why not give us a trial.
+          </p>
+        
+        </div>
+      <img src={img} alt=""className='w-auto  h-[250px] md:h-[300px] lg:h-[405px] ' />
+
+    </div>
+<img src={path} className='w-full ' alt="" />
+       </div>
 
       <div className="flex justify-center items-center flex-col">
         <p className="text-[18px] font-bold text-transparent w-[70%] leading-[40px] lg:w-[30%] text-center bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text">
@@ -38,8 +66,8 @@ const about = () => {
           magnis”
         </p>
         <img src="Line.png" className="my-4" alt="" />
-        <p className="mb-10">Ramon Ridwan • CEO CoinBase</p>
-        <div className="w-[80%] text-center h-[792px] gap-10  border border-solid border-pink-500 rounded-xl flex flex-col justify-center items-center">
+        <p className=" mb-10">Ramon Ridwan • CEO CoinBase</p>
+        <div className="w-[80%] text-center  gap-10  border border-solid border-pink-500 rounded-xl flex flex-col justify-center items-center">
           <img src={aboutImg} alt="" />
 
           <p className="flex items-center flex-col text-transparent font-bold text-[28px] bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text">
@@ -53,7 +81,7 @@ const about = () => {
             and managed by CoinBase Business Services established and
             Incoperated in Nigeria.
           </p>
-          <img src={qualities} alt="" className="w-[75%] md:w-auto " />
+          <img src={qualities} alt="" className="w-[75%] mb-[56px] md:w-auto " />
         </div>
       </div>
       <p className=" flex justify-center items-center flex-col text-transparent text-[28px] font-bold text-center bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text mt-10 ml-[3.7%]">
@@ -116,7 +144,7 @@ To be continue…
             <div className="w-[30%] lg:w-[299px] h-[233px] z-10 bg-[#C4C4C4] rounded-lg  "></div>
           </div>
           <div className="shadow-md absolute   top-[25.5%] z-20   rounded-xl w-[50%] sm:w-[299px] h-[299px]   bg-gradient-to-b from-[#f19aca] to-[#987fae] " >
-            <span className="text-white flex justify-start ml-10 pb-7  h-full items-end">CEO <br />
+            <span className="text-white flex justify-start ml-4 sm:ml-10 pb-7  h-full items-end">CEO <br />
 Amanda Roth</span>
           </div>
 

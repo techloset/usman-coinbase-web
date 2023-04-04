@@ -10,9 +10,9 @@ const blog = () => {
         Our blog
       </p>
       <img src="Line.png" className="mt-3 mb-8" alt="" />
-      <p>Get to know the latest stuff via our blog post.</p>
-      <div className="flex justify-center xl:flex-row flex-col text-justify  items-center w-full mt-32 xl:gap-20">
-      <div className="w-[70%] sm:w-[50%] md:w-[30%] xl:absolute py-2 xl:py-0 xl:left-[13.8%] z-10 top-[47%] bg-white h-auto xl:h-[286px] border border-gray-500 pl-7 pr-7 xl:pl-14 xl:pr-5 gap-3 text-gray-500 border-solid rounded-lg flex justify-center items-center flex-col ">
+      <p className="text-center m-auto">Get to know the latest stuff via our blog post.</p>
+      <div className="flex justify-center xl:flex-row flex-col text-justify  items-center w-full my-10 xl:gap-20">
+      <div className="w-[70%] sm:w-[50%] md:w-[30%] xl:absolute py-2 xl:py-0 xl:left-[13.8%] z-10 top-[33%] bg-white h-auto xl:h-[286px] border border-gray-500 pl-7 pr-7 xl:pl-14 xl:pr-5 gap-3 text-gray-500 border-solid rounded-lg flex justify-center items-center flex-col ">
         <p className=" text-[11px] self-start">19 JUNE, 2019 | BUSINESS</p>
         <p className="text-[20px] font-bold self-start ">
         HOW TO SELL YOUR ITUNES  <br />
@@ -27,7 +27,7 @@ GIFTCARD WITH US .
           READ MORE
         </button>
       </div>
-        <div className="shadow-md bg-white z-20 py-2 xl:py-0 top-[39%] border border-solid border-pink-500 rounded-xl w-[80%] sm:w-[60%] md:w-[40%] xl:w-[30%]  md:h-[358px] flex justify-center items-center flex-col gap-5  ">
+        <div className="shadow-md bg-white z-20 py-2 xl:py-0  border border-solid border-pink-500 rounded-xl w-[80%] sm:w-[60%] md:w-[40%] xl:w-[30%]  md:h-[358px] flex justify-center items-center flex-col gap-5  ">
           <p className="w-[75%] text-[11px]">19 JUNE, 2019 | BUSINESS</p>
           <p
             className="font-bold bg-gradient-to-r from-pink-500  via-pink-600 to-indigo-900 text-transparent bg-clip-text
@@ -44,7 +44,7 @@ text-[24px] w-[75%]"
             READ MORE
           </button>
         </div>
-        <div className="w-[70%] sm:w-[50%]  md:w-[25%] xl:absolute right-[13%] z-10 top-[47%] bg-white h-auto py-2 xl:py-0  xl:h-[286px] border border-gray-500 px-7 gap-3 text-gray-500 border-solid rounded-lg flex justify-center items-center flex-col ">
+        <div className="w-[70%] sm:w-[50%]  md:w-[25%] xl:absolute right-[13%] z-10 top-[33%] bg-white h-auto py-2 xl:py-0  xl:h-[286px] border border-gray-500 px-7 gap-3 text-gray-500 border-solid rounded-lg flex justify-center items-center flex-col ">
         <p className=" text-[11px] self-start">19 JUNE, 2019 | BUSINESS</p>
         <p className="text-[20px] font-bold self-start">
         EXCHANGE 5 PRODUCTS & <br />

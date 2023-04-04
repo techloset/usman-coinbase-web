@@ -9,6 +9,7 @@ import Client from '../../Components/clients/client';
 import Download from '../../Components/download/download';
 import Newsletter from '../../Components/newsletter/newsletter';
 import Footer from '../../Components/footer/footer';
+import DownloadContent from '../../Components/downloadContent/DownloadContent'
 const landingPage = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const landingPage = () => {
    <Trade></Trade>
    <Blog></Blog>
    <Client></Client>
+   <DownloadContent/>
    <Download></Download>
    <Newsletter></Newsletter>
    <Footer></Footer>

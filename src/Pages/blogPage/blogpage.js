@@ -6,16 +6,23 @@ import m from '../../Images/blogPageImgs/m.png'
 import img401 from '../../Images/blogPageImgs/401.png'
 import Footer from '../../Components/footer/footer';
 import Nav from '../../Components/nav/nav';
+import path from '../../Images/header/p.png'
 import { Link } from 'react-router-dom';
 const blogpage = () => {
   return (
     <>
 
-          <div
-        style={{ backgroundImage: `url(${bg})` }}
-        className="flex flex-col-reverse sm:flex-row gap-10 sm:gap-0 lg:gap-20 xl:gap-40 bg-no-repeat w-full h-[750px] sm:h-[750px] bg-cover bg-center justify-end sm:justify-center items-center"
-      >
-        <div className="flex flex-col gap-4 md:self-start ml-5 sm:w-[426px] text-white sm:mb-28 md:mb-0  md:mt-40">
+
+        <div 
+    style={{background:'linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%)'}} 
+    className=' flex flex-col justify-between'
+
+    >
+
+    <div  className='flex flex-col-reverse sm:flex-row gap-10 sm:gap-0 lg:gap-[10%]   xl:gap-[7%]  bg-no-repeat w-full 
+     bg-cover bg-center justify-end sm:justify-center items-center '>
+        
+        <div className="flex flex-col mb-[50px] sm:mb-[175px] gap-4 self-start ml-5 sm:w-[426px] text-white  sm:mt-40">
         <p>HOME/BLOG</p>
           <p className="md:text-[40px] md:leading-[60px] font-bold text-[20px] ">
           Stay updated,
@@ -28,11 +35,13 @@ Never miss a post.
           </p>
         
         </div>
-       
-      <img src={img} alt=""className='w-auto  h-[250px] md:h-[300px] lg:h-[405px] mt-10 sm:mt-0  sm:mb-36' />
+        <img src={img} alt=""className='w-auto  h-[250px] md:h-[300px] lg:h-[405px] mt-10 sm:mt-28  ' />
 
-      </div>
-  <div className='flex flex-col gap-20 justify-center items-center'>
+
+    </div>
+<img src={path} className='w-full ' alt="" />
+       </div>
+  <div className='flex flex-col gap-20 justify-center mt-10 items-center'>
 
   <div  className='flex flex-col justify-center items-center'>
     <img src={gift} alt="" className='w-[80%]' />
@@ -73,11 +82,14 @@ Never miss a post.
         </Link>
     </div>
   </div>
-  <div className='flex flex-row justify-center items-center gap-3 py-14 h-full'>
+  <div className='flex flex-col sm:flex-row justify-center items-center gap-3 py-14 h-full'>
+    <div className='space-x-3'>
+
         <button className='rounded-full text-lg  w-14 h-14 text-white ' style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>01</button>
         <button className='rounded-full w-14 h-14 text-lg bg-white border border-gray-300'>02</button>
         <button className='rounded-full w-14 h-14 text-lg bg-white  border border-gray-300'>03</button>
         <button className='rounded-full w-14 h-14 text-lg bg-white  border border-gray-300'>-</button>
+    </div>
         <button className='rounded-full w-24 h-14 text-lg bg-white  border border-gray-300'>Next</button>
       </div>
   </div>

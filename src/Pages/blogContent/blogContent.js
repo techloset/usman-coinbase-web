@@ -4,13 +4,14 @@ import img from '../../Images/blogContent/IMG.png'
 import icons from '../../Images/blogContent/Icons.png'
 import Footer from '../../Components/footer/footer'
 import Nav from '../../Components/nav/nav';
+import path from '../../Images/blogContent/pb.png'
 
 const blogContent = () => {
   return (
     <>
-  {/* <Nav/> */}
+<div style={{backgroundImage:`url(${bg})`}} className='bg-cover bg-center  bg-no-repeat' >
 
-    <div style={{backgroundImage:`url(${bg})`}}  className='flex gap-40  bg-no-repeat  h-[750px] bg-cover bg-center justify-center items-center'>
+    <div   className='flex gap-40   h-[500px] justify-center items-center'>
 
 
 <div className='text-white text-center '>
@@ -21,7 +22,10 @@ const blogContent = () => {
 
 </div>
   </div>
-  <div className='flex flex-col  gap-10 justify-center items-center text-justify  '>
+  <img src={path} className='w-full' alt="" />
+</div>
+
+  <div className='flex flex-col mt-20  gap-10 justify-center items-center text-justify  '>
 
   <p className='w-[70%]'>
 
@@ -103,7 +107,7 @@ If you have never experienced cruising before, a chartered experience is a great
     <p className='text-[24px] font-bold'>Leave A Comment</p>
     <p>Your email address will not be published. Required fields are marked *</p>
     </div>
-    <form action="" className='flex flex-col items-center w-[88%] justify-center  gap-10'>
+    {/* <form action="" className='flex flex-col items-center w-[88%] justify-center  gap-10'>
       <div className='w-full flex gap-5 md:gap-[10%] flex-col md:flex-row items-center  justify-center  '>
 
       <input type="text" className='rounded-md pl-2 w-[80%] md:w-[35%] h-[60px] border border-solid border-gray-300' placeholder='Name' name="" id="" />
@@ -112,9 +116,25 @@ If you have never experienced cruising before, a chartered experience is a great
       
 
 <textarea name="" id=""  className='w-[80%] rounded-md pl-2 h-[190px] border border-solid border-gray-300 resize-none'></textarea>
-    <div className='w-[80%]'>
+    <div className='w-full flex gap-5 md:gap-[10%] flex-col md:flex-row items-center  justify-center'>
 
 <button className="self-start text-2xl font-bold text-white bg-gradient-to-br from-pink-500 to-indigo-900 w-[157px] h-[54px] rounded-full">
+PUBLISH
+      </button>
+    </div>
+    </form> */}
+    <form action="" className='flex flex-col items-center justify-center w-[70%] gap-10'>
+      <div className='w-full flex gap-5 md:gap-[4%] flex-col md:flex-row   '>
+
+      <input type="text" className='rounded-md p-[20px] w-[80%] md:w-[50%] h-[60px]  border-[1px] focus:outline-none border-[#D1D1D1] placeholder:text-[#2F2F2F]' placeholder='Name *' name="" id="" />
+      <input type="text" className='rounded-md p-[20px] w-[80%] md:w-[50%] h-[60px]  border-[1px] focus:outline-none border-[#D1D1D1] placeholder:text-[#2F2F2F]' placeholder='Email *' name="" id="" />
+      </div>
+      
+
+<textarea placeholder='Your Comment' name="" id=""  className='placeholder:text-[#2F2F2F] self-start p-[20px] focus:outline-none box-border rounded-md w-[80%] md:w-full h-[190px]  border-[1px] border-[#D1D1D1] resize-none'></textarea>
+    <div className='w-full flex'>
+
+<button className="self-start text-[14px]  mt-[20px] mb-[60px] font-bold text-white bg-gradient-to-br from-pink-500 to-indigo-900 w-[157px] h-[54px] rounded-full">
 PUBLISH
       </button>
     </div>
